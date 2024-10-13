@@ -1,0 +1,510 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+.every{
+    width:1440px;
+    background-color: white;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+.gray{
+    background-color:rgb(139, 138, 138);
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    height: 50px;
+    width: 1440px;
+    align-items: center;
+    
+}
+.gray__item{
+    color: rgb(192, 192, 192);
+    
+    list-style: none;
+}
+.containerli{
+    justify-content: flex-end;
+    gap: 50px;
+    display: flex;
+    width: 500px;
+    margin-right: 5%;
+}
+.header{
+    background-color: white;
+    padding: 20px 0px;
+    
+}
+.header__item{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 100px;
+    margin-right: 400px ;
+}
+.header__item__2{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: space-between;
+    margin-left: -400px;
+    align-items: center;
+}
+.container{
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+.header__link{
+    color: black;
+font-family: "Inter";
+font-size: 18px;
+font-weight: 500;
+line-height: 22px;
+text-decoration: none;
+transition: 0.5 ease-in-out;
+}
+.imga{
+    margin-left: 10px;
+}
+/* MAIN SECTION 1 RASM BY SARDOR A'LOYEV*/
+.section1rasm{
+    text-align: center;
+}
+.container1texts{
+    width: 1200px;
+height: 174px;
+margin: 0 auto;
+margin-top: 55px;
+margin-bottom: 55px;
+}
+.textbox__1{
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+
+}
+.text__1{
+    width: 355px;
+height: 174px;
+
+    font-family: "Roboto";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    text-align: left;
+    
+}
+.text__2{
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    color: #AAAAAA;
+    width: 569px;
+height: 160px;
+
+}
+.picturecont__4{
+    display: flex;
+    width: 1296px;
+height: 962px;
+flex-wrap: wrap;
+gap: 50px;
+justify-content: center;
+margin: 0 auto;
+}
+.four__rasm{
+    width: 588px;
+height: 449px;
+
+}
+.container__2__logos{
+    width: 1090px;
+height: 560px;
+margin: 0 auto;
+
+}
+.logos__title{
+    font-family: "Roboto";
+font-size: 48px;
+font-weight: 400;
+line-height: 48px;
+text-align: center;
+margin-top: 75px;
+
+}
+.logos__mintitle{
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    
+}
+.print{
+    font-family: "Roboto";
+font-size: 24px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+
+}
+.imglogo{
+    display: flex;
+    justify-content: space-between;
+    gap: 55px;
+    margin-top: 85px ;
+    flex-wrap: wrap;
+}
+.rasm3degi{
+    width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+}
+.title__4{
+    font-family: "Roboto";
+font-size: 65px;
+font-weight: 400;
+line-height: 60.25px;
+text-align: left;
+padding: 0px 55px ;
+margin-bottom: 20px;
+
+
+}
+.title__4__qutisi{
+    width: 1077px;
+height: 168px;
+margin: 0 auto;
+
+}
+.GET{
+    background-color: white;
+    color: aqua;
+text-decoration: none;
+font-size: 35px;
+margin-left: 60px;
+
+}
+
+
+
+
+
+.text{
+    width: 300px;
+    height: 160px;
+    background-color: rgb(255, 255, 255);
+    padding: 18px;
+}
+.FlexBox{
+    margin-bottom: 18px;
+    color: rgb(0, 0, 0);
+font-family: "Roboto";
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: center;
+}
+.text_item{
+    color: rgb(0, 0, 0);
+font-family: "Roboto";
+font-size: 13px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+}
+.container_item{
+    margin-left: 50px;
+    margin-top: 23px;
+    text-align: center;
+    
+}
+.uchta{
+    display: flex;
+    gap: 53px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 55px;
+}
+.bgimg {
+    
+    background-image: url('images/photo_2022-10-15_15-40-35.jpg'); /* Rasm manzilini kiriting */
+    background-size: cover; /* Rasmni to'liq joylashtirish */
+    background-position: center; /* Rasmni markazga joylashtirish */
+    padding: 20px; /* Ichki bo'shliqlar */
+    color: white; /* Matn rangini o'zgartirish */
+    text-align: left; /* Matnni markazga joylash */
+    width: 1440px;
+height: 800px;
+margin: 65px auto;
+
+}
+.bgimg__container{
+    width: 1200px;
+height: 700px;
+
+/* background-color: blue ; */
+opacity: 1;
+display: flex;
+justify-content: space-evenly;
+flex-direction: column;
+align-items: left;
+padding: 0px 250px;
+
+}
+.bgimg_item{
+
+
+    width: 350px;
+height: 146px;
+    gap: 100px;
+font-size: 24px;
+font-weight: 400;
+line-height: 32px;
+text-align: left;
+
+}
+.bgimg_item2{
+    width: 350px;
+height: 146px;
+    gap: 100px;
+}
+.bgimg_item3{
+    width: 350px;
+height: 146px;
+    gap: 100px;
+}
+.textcha__1{
+    font-family: "Roboto";
+font-size: 46px;
+font-weight: 400;
+line-height: 52px;
+text-align: left;
+color: #AAAAAA;
+
+}
+.textcha__2{
+    font-family: "Roboto";
+font-size: 46px;
+font-weight: 400;
+line-height: 52px;
+text-align: left;
+color:#000000;
+}
+.textcha{
+    width: 1090px;
+height: 712px;
+left: 103px;
+margin: 0 auto;
+padding: 240px 108px 135px 100px;
+gap: 0px;
+opacity: 0px;
+
+}
+.birinchi{
+    width: 1200px;
+height: 672px;
+top: 712px;
+left: 48px;
+gap: 0px;
+opacity: 0px;
+display: flex;
+justify-content: space-between;
+
+margin: 70px auto;
+}
+.birinchi__text_container{
+    width: 529.31px;
+height: 156px;
+top: 258px;
+left: 670.69px;
+padding: 0px 128px 0px 90.31px;
+opacity: 0px;
+padding: 300px 100px;
+
+
+}
+.birinchi__item__text{
+    font-family: "Roboto";
+font-size: 32px;
+font-weight: 400;
+line-height: 36px;
+text-align: left;
+margin-bottom: 35px;
+}
+.birinchi__item__text2{
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    
+}
+.bigpicture{
+    margin-bottom: 200px;
+    margin-top: 160px;
+}
+.container__100daynmadur{
+    width: 1200px;
+height: 465px;
+gap: 0px;
+border-radius: 2px 0px 0px 0px;
+opacity: 0px;
+background-color: #F2F2F2;
+margin: 0 auto;
+
+
+}
+.messi{
+    font-family: "Roboto";
+font-size: 46px;
+font-weight: 400;
+line-height: 50.6px;
+text-align: center;
+height: 51px;
+padding-top: 63px;
+}
+.neymarjr{
+    width: 800px;
+height: 235px;
+top: 114px;
+left: 200px;
+padding: 65px 33.36px 70px 33.33px;
+gap: 0px;
+opacity: 0px;
+margin: 0 auto;
+text-align: center;
+}
+.btn2{
+    width: 146px;
+height: 50px;
+opacity: 1px;
+background-color: #46856E;
+margin: 0 auto;
+transition: 0.3s;
+
+}
+.btn2:hover{
+    background-color: red;
+    transition: 0.1s;
+    border: 3px solid blue;
+    color: yellow;
+    font-size: 16px;
+}
+.btn2:active{
+    background-color: rgb(0, 42, 255);
+    transition: 0.1s;
+    border: 3px solid rgb(0, 255, 21);
+    color: yellow;
+    font-size: 10px;
+}
+form{
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+.terms{
+    margin-left: 60px;
+    margin-top: 30px;
+    text-align: center;
+    color: #AAAAAA;
+    margin-bottom: 50px;
+}
+.footer{
+    width: 1440px;
+height: 619px;
+background-color: #000000;
+margin-top: 70px;
+}
+.footer__container{
+    display: flex;
+    margin: 50px auto;
+    padding-top: 40px;
+    align-items: center;
+    justify-content: space-around;
+    width: 1200px;
+height: 471px;
+
+}
+.footer__logo{
+    width: 87px;
+height: 471px;
+}
+.footer__about__container{
+    width: 340px;
+height: 471px;
+}
+.footer__label_container{
+    width: 327px;
+height: 471px;
+color: white;
+}
+.footer__input{
+    width: 327px;
+height: 54px;
+border-radius: 3px;
+
+
+}
+.texttttt{
+    
+    color: #AAAAAA;
+}
+.gray__item:hover{
+    color:  green;
+    transition: 0.3s;
+}
+.header__link:hover{
+    color: blue;
+    font-weight: bolder;
+}
+.text__1:hover{
+    color: blue;
+    transition: 0.3s;
+    font-size: xx-large;
+}
+.text__2:hover{
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: 0.3s;
+}
+.logos__title:hover{
+    color: blueviolet;
+    transition: 0.8s;
+    font-size-adjust: inherit;
+}
+.footer__input:hover{
+    background-color: blue;
+    border: 1px solid red;
+}
+.footer__input:active{
+    transition: 3s;
+background-color: yellow;
+border: 1px solid blue;
+transition: 5s;
+}
+.bgimg:hover{
+   color: blueviolet;
+   transition: 5s;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
